@@ -24,7 +24,7 @@
 	],
 	"scripts": {
 		"test": "grunt",
-		"prepublish": "grunt"
+		"prepublish": "grunt bower_build"
 	},
 	"files": ["dist/localization/", "dist/additional-methods.js", "dist/jquery.validate.js"],
 	"main": "dist/jquery.validate.js",

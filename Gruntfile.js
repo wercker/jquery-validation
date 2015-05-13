@@ -181,6 +181,7 @@ grunt.loadNpmTasks("grunt-text-replace");
 
 grunt.registerTask("default", [ "concat", "copy", "jscs", "jshint", "qunit" ]);
 grunt.registerTask("release", [ "default", "uglify", "replace", "compress" ]);
+grunt.registerTask("bower_build", [ "concat", "copy", "uglify", "replace", "compress" ]);
 grunt.registerTask("start", [ "concat", "watch" ]);
 
 };
